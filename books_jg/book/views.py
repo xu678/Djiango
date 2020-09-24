@@ -156,5 +156,51 @@ BookInfo.objects.exclude(id=3)
 BookInfo.objects.filter(~Q(id=3))
 
 
+# 查询图书的总阅读量
+from django.db.models import Sum
+BookInfo.objects.aggregate(Sum("readcount"))
+# aggregate的返回值是一个字典类型 {"属性名＿＿聚合类小写",值}
+# 查询图书总数
+BookInfo.objects.count()
+# count函数返回的是一个数字
+
+
+#    排序
+BookInfo.objects.all().order_by("readcount")
+
+#    2个表的级联操作
+
+# 查询书籍为1的所有人物信息
+PeopleInfo.objects.filter(book=1)
+
+# 获取ｉｄ为１的书籍
+book = BookInfo.objects.get(id=1)
+book.peopleinfo_set.all()
+
+# 查询人物为1的书籍信息
+person=PeopleInfo.objects.get(id=1)
+person.book.name
+person.readcount
+
+#   关联过滤查询
+# 语法形式
+#  查询１的数据，条件为ｎ
+# 模型类名.objects.(关联模型类名小写＿字段名＿预算符＝值)
+
+
+# 查询图书，要求图书人物为"郭靖"
+BookInfo.objects.filter(peopleinfo__name__exact="郭靖")
+
+
+# 查询图书，要求图书中人物的描述包含"八"
+BookInfo.objects.filter(peopleinfo__description__contains="八")
+
+# 查询书名为“天龙八部”的所有人物
+PeopleInfo.objects.filter(book__name="天龙八部")
+
+
+# 查询图书阅读量大于30的所有人物
+PeopleInfo.objects.filter(book__readcount__gt=30)
+
 
 
