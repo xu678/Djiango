@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c34e4e8-50b8-4c3e-af7c-03c2525bc9a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../book_django/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_django/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book_django/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book_django/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book_django/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../book_django/book/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book_django/book_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../book_django/book_django/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book_django/templates/book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../book_django/templates/book/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,15 +26,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book/apps.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -57,20 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="-175">
+              <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="169">
+              <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -166,6 +151,12 @@
             <path>
               <item name="books_jg" type="b2602c69:ProjectViewProjectNode" />
               <item name="books_jg" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="books_jg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="books_jg" type="462c0819:PsiDirectoryNode" />
               <item name="books_jg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -242,19 +233,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600871986327</updated>
-      <workItem from="1600871987622" duration="12516000" />
+      <workItem from="1600871987622" duration="20219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12516000" />
+    <option name="totallyTimeSpent" value="20219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="613" y="27" width="752" height="750" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24907975" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -344,20 +335,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book/views.py">
+    <entry file="file://$PROJECT_DIR$/book/migrations/0003_auto_20200924_1020.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="-175">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
