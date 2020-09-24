@@ -4,6 +4,10 @@ from django.shortcuts import render
 # Create your views here.
 # from django.template import context
 
+#
+# from book.models import BookInfo
+# book = BookInfo.objects.all(id__in=(1,2))
+
 
 def index(request):
     # 准备上下文:定义在字典中的()测试数据
