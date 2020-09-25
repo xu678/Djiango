@@ -1,6 +1,10 @@
 from django.http import HttpResponse
 import json
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+
+
+def index(request):
+    pass
 
 # Create your views here.
 def goods(request,cat_id,goods_id):
@@ -46,7 +50,74 @@ def method(request):
 
 from django.http import HttpResponse,JsonResponse
 def response(request):
-    return
+    # response = HttpResponse("res",status=200)
+    #
+    # response['name'] = 'xuxuxuxu'
+    #
+    # return response
+    # JSON --> dict
+    # dict --> JSON
+
+    info = {
+        'name':'xuxuuxu',
+        'address':'shunyi'
+    }
+    girl_friends=[
+        {
+            'name':'rose',
+            'address':'shunyi'
+        },
+        {
+            'name':'jack',
+            'adress':'changping'
+        }
+    ]
+    # data 返回的响应数据　一般是字典类型
+    """
+    safe = Turn 是表示　我们的data是字典类型
+    JsonResponse 可以把字典转换为json
+    
+    现在给了一个非字典数据,出了问题 我们自己负责
+    """
+   #  response = JsonResponse(data=info)  # 安全检测机制,data不是字典要把safe变为False
+#    # # response = JsonResponse(data=girl_friends,safe=False)
+#    #  response['name'] = info['name']
+#    #  response['address'] = info['address']
+#    #  return response
+
+    # redirect 重定向,跳到指定页面
+
+    return redirect('http://www.baidu.com')
+
+    # 等同于上面 JsonResponse(data=数据,safe=)
+    # 没有安全机制
+    # data = json.dumps(girl_friends)
+    # response = HttpResponse(data)
+    # return response
+
+    # 1xx
+    # 2xx  200 成功
+    # 3xx
+    # 4xx    请求有问题
+    #   404  找不到页面 路由问题
+    #   403  禁止访问   权限问题
+    # 5xx
+    #　HTTP status code must be an integer from 100 to 599
+
+
+#####################################
+
+"""
+查询字符串
+http://ip:port/path/path/?key=value&key1=value1
+
+
+url 以?为分割分为2部分
+? 前边为 请求路径
+?  后边为 查询字符串 查询字符串 类似于字典 key=value 多个数据采用&拼接
+"""
+
+
 
 
 

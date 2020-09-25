@@ -1,5 +1,5 @@
 from django.urls import path
-from book.views import goods,content,method
+from book.views import goods,content,method,response,index
 from django.urls import converters
 from django.urls.converters import register_converter
 # 1. 定义转换器
@@ -21,9 +21,11 @@ register_converter(MobileConverter,'phone')
 
 
 urlpatterns = [
+    path('index/','index'),
     # <转换器名字：变量名>
     # 转换器会对变量数据进行　正则验证
     path('<int:cat_id>/<phone:goods_id>/',goods),
     path('content/',content),
     path('method/',method),
+    path('response/',response),
 ]
