@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="321c888f-7bdd-412f-b076-26c80eb6ef78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_django03/book/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_django03/book/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_django03/book/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_django03/book/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_django03/book/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_django03/book/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_django03/book/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_django03/book_django03/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_django03/book_django03/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_django03/book_django03/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_django03/book_django03/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book_django03/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_django02/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_django02/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="286">
               <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -31,19 +44,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book_django02/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="136" column="31" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
+            <state relative-caret-position="177">
+              <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/book/views.py">
+        <entry file="file://$PROJECT_DIR$/templates/book/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="211" column="45" selection-start-line="211" selection-start-column="45" selection-end-line="211" selection-end-column="45" />
+            <state relative-caret-position="66">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,6 +80,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -65,17 +91,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/book/models.py" />
-        <option value="$PROJECT_DIR$/book_django02/urls.py" />
-        <option value="$PROJECT_DIR$/book_django02/settings.py" />
         <option value="$PROJECT_DIR$/book/urls.py" />
         <option value="$PROJECT_DIR$/book/views.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/templates/book/login.html" />
+        <option value="$PROJECT_DIR$/book_django02/urls.py" />
+        <option value="$PROJECT_DIR$/book_django02/settings.py" />
       </list>
     </option>
   </component>
@@ -101,12 +121,18 @@
             <path>
               <item name="book_django02" type="b2602c69:ProjectViewProjectNode" />
               <item name="book_django02" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="book_django02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="book_django02" type="b2602c69:ProjectViewProjectNode" />
               <item name="book_django02" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="book_django02" type="b2602c69:ProjectViewProjectNode" />
               <item name="book_django02" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -116,9 +142,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../book_django03" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -171,12 +198,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600962926253</updated>
-      <workItem from="1600962927502" duration="21929000" />
+      <workItem from="1600962927502" duration="24066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21929000" />
+    <option name="totallyTimeSpent" value="24066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="606" y="30" width="752" height="750" extended-state="0" />
@@ -193,7 +220,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -232,26 +259,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/people/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book_django02/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book_django02/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="229">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#637#669#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book_django02/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="136" column="31" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="286">
           <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -261,10 +291,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/book/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="211" column="45" selection-start-line="211" selection-start-column="45" selection-end-line="211" selection-end-column="45" />
+        <state relative-caret-position="199">
+          <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/book/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
