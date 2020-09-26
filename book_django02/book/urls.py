@@ -1,6 +1,7 @@
 from django.urls import path
 from book.views import goods,content,method,response,index
-from book.views import Cookie,set_session,get_session
+from book.views import Cookie,set_session,get_session,login
+from book.views import LoginView
 from django.urls import converters
 from django.urls.converters import register_converter
 # 1. 定义转换器
@@ -32,4 +33,6 @@ urlpatterns = [
     path('Cookie/',Cookie),
     path('set_session',set_session),
     path('get_session',get_session),
+    path('login',login),
+    path('loginview',LoginView.as_view())
 ]
