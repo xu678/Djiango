@@ -131,9 +131,17 @@ def set_cookie(request):
     response.set_cookie('name',username,max_age=60*60)
     response.set_cookie('password',password)
 
-    response.delete_cookie("name")
+    # response.delete_cookie("name")
 
     return  response
+
+# from django.http import HttpResponse
+def get_cookie(request):
+    cookie = request.COOKIES.get("name")
+    print(cookie)
+    response = HttpResponse(cookie)
+    response.delete_cookie('name')
+    return response
 
 def set_session(request):
     # 1 , 模拟获取用户的信息
